@@ -148,11 +148,26 @@ float:right;
 margin-right: 25%;
 }
 
+.texttitle{
+font-size: 1.2em;
+}
+
+.textsx{
+font-size: 0.8em;
+float:left;
+margin-left: 5em;
+}
+.textsx2{
+font-size: 0.8em;
+margin-left: 25em;
+}
+
 .textcontent{
 position: absolute;
 top: 25%;
 left: 15%;
 visibility: hidden;
+text-shadow: -2px 2px 0px #00e6e6
 }
 
 #xbutton{
