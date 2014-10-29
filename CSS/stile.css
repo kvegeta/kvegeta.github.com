@@ -70,25 +70,6 @@ to{margin-top:-750px}
 
 }
 
-.container1	
-{ 
-	position: absolute;
-	top:30%;
-	margin-left: 15%;
-	width: 70%;
-	height: 150px; 
-	line-height:200px;
-} 
-.container2
-{ 
-	position: absolute;
-	top:60%;
-	margin-left: 15%;
-	width: 70%;
-	height: 150px; 
-	line-height:200px;
-} 
-
 /*dettagli e gestione dell'animazione */
 
 .animationin{
@@ -174,8 +155,6 @@ left: 15%;
 visibility: hidden;
 }
 
-/* CLASSI DI TESTA */
-
 #xbutton{
 position:relative;
 width:1em;
@@ -183,3 +162,5 @@ height:1em;
 float:right;
 visibility:hidden;
 }
+
+/* CLASSI DI TESTA */
