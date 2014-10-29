@@ -1,3 +1,3 @@
 $("button").click(function() {
-    $(this).removeClass("fadeinsx");
+    $(this).toggleclass("sx");
  });
