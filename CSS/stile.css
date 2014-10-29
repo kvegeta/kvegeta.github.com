@@ -1,10 +1,10 @@
 body {
- background-image: url('../img/background.jpg');
+ background-image: url('../Img/background.jpg');
  color: black;
 }
 
 #header {
- background-image: url('../img/background2.jpg');
+ background-image: url('../Img/background2.jpg');
  height: 1.7em;
  margin-top: -10px;
  margin-left: 10%;
