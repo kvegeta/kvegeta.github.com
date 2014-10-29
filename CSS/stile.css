@@ -10,13 +10,14 @@ height:100%;
 
 #header {
  background-image: url('../Img/background2.jpg');
- height: 100px;
+ height: 1.7em;
  margin-top: -10px;
  margin-left: 10%;
  margin-right: 10%;
- line-height: 100px;
- font-size: 50;
+ line-height: 1.7em;
  font-style: italic;
+ font-size: 3em;
+
  
  /*gestione degli arrotondamenti */
  border-bottom-right-radius: 40px;
@@ -78,6 +79,22 @@ from{margin-right:-650px}
 @-webkit-keyframes 'comingtop'{
 from{margin-top:-250px}
 }
+
+@-webkit-keyframes 'goingtop'
+{
+to{margin-top:-250px}
+}
+
+p
+{
+cursor: pointer;
+color:red;
+}
+
+.cc
+{
+color:blue;
+}
 	
 .container1	
 { 
@@ -124,7 +141,12 @@ from{margin-top:-250px}
 	-webkit-animation-timing-function: linear;
 }
 	
-
+.fadeouttop{
+	-webkit-animation-name: goingtop;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+}
 
 /*pulsanti di selezione */
 
@@ -134,11 +156,11 @@ from{margin-top:-250px}
 	cursor: pointer;
 	text-decoration: none;
 	text-align:center;
-	font: bold 25px Arial, Helvetica, sans-serif;
+	font: bold 1em Arial, Helvetica, sans-serif;
 	color: #fff;
-	height: 80px;
-	line-height:80px;
-	width: 200px;
+	height: 4em;
+	line-height:4em;
+	width:8em;
 	border-radius: 20px;
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }

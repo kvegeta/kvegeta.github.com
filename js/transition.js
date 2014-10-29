@@ -1,3 +1,3 @@
-$("button").click(function() {
-    $(this).toggleclass("sx");
+$("p").click(function() {
+	$(this).toggleClass("cc");
  });
