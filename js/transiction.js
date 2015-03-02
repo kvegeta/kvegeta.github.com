@@ -8,5 +8,6 @@ $(document).ready(function()
     else {
 	  $('#canvas').css("opacity", "0.0")
 	  }
+	$("#start").toggleClass("visible");
   });
 });
