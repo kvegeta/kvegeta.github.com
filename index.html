@@ -5,15 +5,15 @@
 <meta name="viewport" content="width = 1050, user-scalable = no" />
 <link href="CSS/style.css" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/jquery-ui-1.8.20.custom.min.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
-<script type="text/javascript" src="../../lib/hash.js"></script>
+<script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="extras/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="lib/hash.js"></script>
 
 </head>
 <body>
 
-<div id="start">AVVIA</div>
+<div id="start">LIBRETTO</div>
 
 <div id="canvas">
 
@@ -392,9 +392,9 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.min.js'],
-	nope: ['../../lib/turn.html4.min.js', 'CSS/jquery.ui.html4.css'],
-	both: ['../../lib/zoom.min.js', 'CSS/jquery.ui.css', 'js/magazine.js', 'js/transiction.js', 'CSS/magazine.css'],
+	yep: ['lib/turn.min.js'],
+	nope: ['lib/turn.html4.min.js', 'CSS/jquery.ui.html4.css'],
+	both: ['lib/zoom.min.js', 'CSS/jquery.ui.css', 'js/magazine.js', 'js/transiction.js', 'CSS/magazine.css'],
 	complete: loadApp
 });
 
